@@ -19,6 +19,9 @@ const TodosList = ({ todosProps, handleChange, delTodo, setUpdate }) => {
 
 TodosList.propTypes = {
   todosProps: PropTypes.array,
+  handleChange: PropTypes.func,
+  delTodo: PropTypes.func,
+  setUpdate: PropTypes.func,
 }
 
 export default TodosList;

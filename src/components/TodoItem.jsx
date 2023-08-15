@@ -59,6 +59,9 @@ const TodoItem = ({ itemProp, handleChange, delTodo, setUpdate }) => {
 
 TodoItem.propTypes = {
   itemProp: PropTypes.object,
+  handleChange: PropTypes.func,
+  delTodo: PropTypes.func,
+  setUpdate: PropTypes.func,
 };
 
 export default TodoItem;
