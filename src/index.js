@@ -10,5 +10,5 @@ root.render(
   <div>
     <h1>Hello from React application</h1>
     <img src={reactLogo} className="logo react" alt="React logo" />
-  </div>
+  </div>,
 );
